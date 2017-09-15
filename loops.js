@@ -15,15 +15,18 @@ console.log("Done son!")
 
 function loopTwo(number, power){
 let sum = 0;
-for(sum >= 0; sum < power){
-let sum = number + sum
-let number = number + 1
+for(let p=0; p <=power; p++){
+  sum = sum + Math.pow(number,power)
+  number = number ++
 }
 return sum
 }
 
-function loopThree(){
-
+function loopThree(symbol,number){
+for(let p=0; p<=number;){
+  console.log(symbol);
+  symbol=symbol++
+}
 
 }
 
